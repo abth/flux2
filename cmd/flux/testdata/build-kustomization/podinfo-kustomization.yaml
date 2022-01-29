@@ -13,3 +13,6 @@ spec:
     kind: GitRepository
     name: podinfo
   targetNamespace: default
+  images:
+    - name: ghcr.io/stefanprodan/podinfo
+      newTag: 6.0.9
