@@ -17,3 +17,6 @@ spec:
     substitute:
       cluster_env: "prod"
       cluster_region: "eu-central-1"
+  images:
+    - name: ghcr.io/stefanprodan/podinfo
+      digest: "sha256:d15a206e4ee462e82ab722ed84dfa514ab9ed8d85100d591c04314ae7c2162ee"
